@@ -14,18 +14,32 @@
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  background-color: #17e40f;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  font-size: calc(20px + 3vmin);
   color: white;
 }
+.App-body {
+  background-color: #5dd1e6;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: left;
+  font-size: calc(10px + 2vmin);
+  color: rgb(90, 19, 19);
 
+  
+}
+#datos div{
+  margin-top: 5%;
+  margin-bottom: 2%;
+}
 .App-link {
-  color: #61dafb;
+  color: #17e40f;
 }
 
 @keyframes App-logo-spin {
