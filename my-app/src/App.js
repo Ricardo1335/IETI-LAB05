@@ -12,6 +12,7 @@ import LockOutlinedIcon from '@mui/icons-material/LockOutlined';
 import Typography from '@mui/material/Typography';
 import Container from '@mui/material/Container';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
+import { blue, pink } from '@mui/material/colors';
 
 
 
@@ -40,6 +41,8 @@ export default function SignIn() {
             alignItems: 'center',
           }}
         >
+          <Avatar >SI</Avatar>
+          
           <Typography component="h1" variant="h5">
             Sign in
           </Typography>
