@@ -7,6 +7,7 @@ import Box from '@mui/material/Box';
 import Typography from '@mui/material/Typography';
 import Container from '@mui/material/Container';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
+import LockIcon from '@mui/icons-material/Lock';
 
 
 
@@ -26,8 +27,7 @@ export default function SignIn() {
             alignItems: 'center',
           }}
         >
-          <Avatar >SI</Avatar>
-          
+          <LockIcon></LockIcon>
           <Typography component="h1" variant="h5">
             Sign in
           </Typography>
